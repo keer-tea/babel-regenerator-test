@@ -1,0 +1,11 @@
+{
+  "name": "import-regenerator-runtime",
+  "scripts": {
+    "compile": "babel index.js -o compiled.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "7.16.7",
+    "@babel/plugin-transform-regenerator": "7.21.5"
+  }
+}
